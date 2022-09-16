@@ -1,0 +1,109 @@
+
+    body {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    display: flex;
+    background-color: rgb(231, 209, 209);
+    position: relative;
+    }
+
+    .mainHead {
+        color: red;
+        font-weight: bolder;
+        font-size: 50px;
+        
+    }
+
+    .bg-image {
+        width: 100%;
+        filter: brightness(80%) blur(2px);
+    }
+
+    .bg-div {
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+
+    .container {
+    position: absolute;
+    /* border: 2px solid #dedede; */
+    background-color: rgba(0,0,0,0);
+    border-radius: 5px;
+    padding: 10px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding-left: 250px;
+    /* margin: 10px 0; */
+    }
+
+
+/* 
+    .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+    }
+
+    .container::after {
+    content: "";
+    clear: both;
+    display: table;
+    } */
+/* 
+    .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+    }
+
+    .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+    } */
+/* 
+    .time-right {
+    float: right;
+    color: #aaa;
+    }
+
+    .time-left {
+    float: left;
+    color: #999;
+    } */
+
+
+    input[type="text"],
+        select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+          width: 100%;
+          background-color: #4caf50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+          background-color: #45a049;
+        }
+
+        div {
+          border-radius: 5px;
+          background-color: rgba(0,0,0,0);
+          /* padding: 20px; */
+        }

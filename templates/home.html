@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/styles/home.css/'%}" />
+  </head>
+  <body>
+    <div class="bg-div">
+      {% load static %}
+      <img
+        class="bg-image"
+        src="{% static '/images/chat_background.webp' %}"
+        alt="background-image"
+      />
+
+      <div class="container">
+        <div class="chathead-div" align="center">
+          <h2 class="mainHead">CHAT APP</h2>
+        </div>
+        <form id="post-form" method="POST" action="checkview">
+          {% csrf_token %}
+          <label>Room Name</label>
+          <input type="text" name="room_name" id="room_name" width="100px" />
+          <label>Username</label>
+          <input type="text" name="username" id="username" width="100px" />
+          <input type="submit" value="Enter Room" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
