@@ -1,9 +1,13 @@
 # ChatApp-with-django
 ## 1.Basic setup and Running instructions:
 
-Open Visual Studio code or command prompt(Instructions are written assuming python3,pip and git are already installed on your system).<br>
-Now open 'New terminal' and navigate to the folder/directory where you want to clone this repository.<br>
-After this run the following commands on the terminal(if using VScode) else type the commands in CMD.
+PRE-REQUISITES:
+1. Visual Studio cocde
+2. Python3(pip)
+3. git bash(to clone repository)
+
+Open Visual Studio code and open 'New terminal' and navigate to the folder/directory where you want to clone this repository.<br>
+After this run the following commands on the terminal.
 **********************************************************************************************************************************************************
 ### STEP 1: CLONE REPOSITORY
 ```
@@ -28,6 +32,10 @@ Type this command on the terminal
 ```
 cd ChatApp-with-django
 ```
+Now you need to install django in the virtual environment. You can do this by running the command:
+```
+pip install django
+```
 then to run and view the webpage type:
 ```
 python manage.py runserver
@@ -38,7 +46,7 @@ You will get this output on the terminal:
 Copy and paste the server link starting with https on google chrome to view the web page. A preview is shown below:
 ![image](https://user-images.githubusercontent.com/89291885/190853934-ba850d04-5cc6-4b5d-accc-c014df7d319e.png)
 
-Now you can enter the chat room of your choice! To test the real time chat updates you can open the same link on a different tab and enter the <br>
+Now you can enter the chat room of your choice! To test the real time chat updates you can open the same link on a different tab and enter the
 same chat room with different username:
 ![image](https://user-images.githubusercontent.com/89291885/190854189-7331c1df-7874-4897-83e2-58ca2e16cacb.png)
 
