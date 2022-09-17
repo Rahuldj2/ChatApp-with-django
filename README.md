@@ -58,5 +58,3 @@ An intermediate understanding of HTML(Hyper text Markup Language), CSS(Cascading
 Some javascript is also used in this project to provide real-time chat messaging updates.
 HTML and CSS are required to build the front end i.e the structure and styles of the web page, and Django(alongwith sqlLite) is used for the backend i.e for
 url routing,storing chat data etc.
-
-******************************************* END OF README FILE************************************************************
